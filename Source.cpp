@@ -149,6 +149,7 @@ int main()
 	cout << "¬ведите размер очереди:\t";
 	int size = GetSize();
 	List* que = Create_list(size);
+	cout << "============================\n";
 	que = Print_list(que);
 	cout << "============================\n";
 	if (Add_element(que))
